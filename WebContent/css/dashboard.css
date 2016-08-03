@@ -1,0 +1,114 @@
+html,body{
+	height: 100%;
+	width: 100%;
+}
+ 
+#side-menu{
+	background-color:#23527c;
+	padding: 0px;
+}
+
+#side-menu h1{
+	color:black;
+	text-align: center;
+	font-size: 25px;
+	margin: 10px 0px;
+}
+
+#side-menu ul{
+	padding:0px;
+	list-style: none; 
+}
+
+#side-menu a{
+	text-decoration:none;
+	font-weight:bold;
+	color:black;
+	padding:12px 20px;
+	display: block;
+}
+
+#side-menu .glyphicon{
+	margin-right: 6px; 
+}
+
+#side-menu a:hover{
+	background-color: #8080ff;
+}
+
+#side-menu .collapseable li{
+	padding-left: 20px;
+	padding-top: 2px;
+	background-color:#ffffff;
+}
+
+#side-menu .collapseable a{
+	padding:10px 20px;
+	font-size:12px;
+	display: block;
+}
+
+#side-menu .collapseable li a:hover{
+	background-color: #24a627;
+	
+}
+
+.box{
+	border: 1px black thin;
+	width: 100%;
+}
+
+.display-table{
+	display: table;
+	padding:0px;
+	height: 100%;
+}
+
+.display-table-row{
+	display: table-row;
+	height: 100%;
+}
+
+
+.display-table-cell{
+	display: table-cell;
+	float: none;
+	height: 100%;
+}
+
+.info .glyphicon{
+	font-size: 100px;
+	margin-top: 50px;
+	color: #23527c;
+}
+.feedback{
+	background-color: #23527c;
+	color: #fff;
+	width: 100%;
+	margin-top: 20px;
+}
+.feedback h2{
+	margin-top: 50px;
+	margin-bottom: 30px;
+}
+.feedback .btn{
+	margin-bottom: 50px;
+}
+#booksearch{
+	background-color: #23527c;
+	color: #fff;
+	width: 100%;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	padding-left: 200px;
+}
+#booksearch .search-box{
+	width: 450px;
+	height: 50px;
+}
+#booksearch .input-group .input-group-btn .btn{
+	margin-right: 300px;
+}
+#bookSearch .container-fluid{
+	margin-top: 100px;
+}

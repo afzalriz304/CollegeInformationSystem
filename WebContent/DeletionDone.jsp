@@ -1,0 +1,30 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>Insert title here</title>
+<link href="bootstrap-3.3.6-dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="bootstrap-3.3.6-dist/css/bootstrap-theme.min.css" rel="stylesheet">
+    <script src="bootstrap-3.3.6-dist/css/js/bootstrap.min.js" type="application/javascript">
+    </script>
+    <script src="js/jquery-1.12.1.min.js" type="application/javascript"></script>
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+   
+</head>
+<body>
+<%
+String islogin=(String)session.getAttribute("islogin");
+if(islogin==null){
+	%>
+	<jsp:forward page="Index.jsp"></jsp:forward>
+	<% 
+}
+%>
+<h1>DELETED....</h1>
+<h3><%=request.getAttribute("Delete") %></h3>
+</body>
+</html>

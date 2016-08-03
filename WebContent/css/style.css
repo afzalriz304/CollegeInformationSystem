@@ -1,0 +1,110 @@
+.hover{
+    position: absolute;
+
+    z-index: 10;
+
+}
+.carousel-inner>.item>img , .carousel-inner>.item{
+	margin: 0px;
+	width: 100%;
+}
+
+.student{
+
+    position: absolute;
+    float: left;
+    top: 200px;
+    left: 300px;
+    opacity: 0.6;
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow, transform;
+    transition-property: box-shadow, transform
+}
+.student:hover{
+    opacity: 1;
+    box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.5);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+.studentBTN{
+    position: absolute;
+    float: left;
+    top: 450px;
+    left: 300px;
+    width: 200px;
+    background-color: transparent;
+    border: solid;
+    
+}
+.teacher{
+
+    position: absolute;
+    float: right;
+    top: 200px;
+    right: 200px;
+    opacity: 0.6;
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow, transform;
+    transition-property: box-shadow, transform
+}
+.teacher:hover{
+    opacity: 1;
+    box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.5);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+.teacherBTN{
+    position: absolute;
+    float: left;
+    top: 450px;
+    right: 200px;
+    width: 200px;
+    background-color: transparent;
+    border: solid;
+}
+.teacherBTN:hover{
+    .teacher:hover;
+}
+#myCarousel{
+    opacity: 0.8;
+    margin:0px;
+    width: 100%;
+}
+.carousel-inner{
+    margin: auto;
+    width: 100%;
+}
+.btn-circle {
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    padding: 6px 0;
+    font-size: 12px;
+    line-height: 1.42;
+    border-radius: 15px;
+}
+.admin{
+    background-color: teal;
+    color: white;
+}
+.footer{
+    background-color: black;
+}

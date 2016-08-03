@@ -1,0 +1,10 @@
+html,body{
+	height: 100%;
+}
+#side-nav{
+	background-color: black;
+}
+#side-nav li{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}

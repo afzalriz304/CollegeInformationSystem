@@ -1,0 +1,105 @@
+body{
+	width: 100%;
+}
+header{
+    position: relative;
+    width: 100%;
+    color: #fff;
+    text-align: center;
+    background-size: cover;
+    background-image:url(../images/apple.jpg);
+
+}
+header>.header-content{
+    position: relative;
+    padding: 100px 15px;
+}
+header>.header-content>h1{
+    text-transform: capitalize;
+    font-weight: 900;
+}
+.bg-primary{
+    text-align: center;
+}
+.btn-primary{
+    width: 200px;
+}
+
+.btn-default{
+    width: 200px;
+    background-color: #fff;
+    border-color: #fff;
+    color: #222;
+    margin-bottom: 10px;
+}
+h3.admin{
+	color: black;
+	font-size: 20px;
+}
+hr{
+    max-width: 50px;
+    border-width: 3px;
+    border-color: #23527c;
+}
+hr.light{
+    border-color: #fff;
+}
+.no-gutter>[class*=col-]{
+    padding-left: 0;
+    padding-right: 0;
+}
+.portfolio-box{
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    max-width: 455px;
+}
+
+.header-content-inner{
+    margin-top: 100px;
+}
+.glyphicon{
+    font-size: 80px;
+    color: #23527c;
+}
+.admin{
+    margin-top: 50px;
+    font-size: 100px;
+}
+.studentBTN{
+    position: absolute;
+    left: 200px;
+    width: 200px;
+}
+.teacherBTN{
+    position: absolute;
+    left: 950px;
+    width: 200px;
+}
+.jumbotron{
+    background-color: transparent;
+}
+.panel-footer{
+    background-color: #080808;
+    color: #fff;
+}
+.light1{
+    margin-bottom: 100px;
+    margin-top: 50px;
+}
+.glyphicon-earphone{
+    margin-top: 20px;
+    margin-bottom: 50px;
+    font-size: 50px;
+}
+.glyphicon-inbox{
+    margin-top: 20px;
+    margin-bottom: 50px;
+    font-size: 50px;
+}
+.btn-info{
+	background-color: #23527c;
+}
+.glyphicon .glyphicon-log-in{
+	font-size: 20px;
+}

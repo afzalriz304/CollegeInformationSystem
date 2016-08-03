@@ -1,0 +1,25 @@
+
+header{
+    background-color:  lightsteelblue;
+    
+}
+.center-click .jumbotron{
+	background-color: transparent;
+	color: black;
+}
+
+.center-click{
+    padding-top: 300px;
+    padding-bottom: 100px;
+}
+.loginBTN{
+    height: 80px;
+    width: 200px;
+    border: solid;
+}
+
+.footer{
+    height: 75px;
+    background-color: #222222;
+    color: white;
+}

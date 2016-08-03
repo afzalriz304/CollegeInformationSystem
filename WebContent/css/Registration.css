@@ -1,0 +1,21 @@
+.teacherBTN{
+    position: absolute;
+    float: left;
+    top: 450px;
+    right: 250px;
+    width: 200px;
+    background-color: transparent;
+    border: solid;
+}
+.studentBTN{
+    position: absolute;
+    float: left;
+    top: 450px;
+    left: 300px;
+    width: 200px;
+    background-color: transparent;
+    border: solid;
+}
+.container-fluid .glyphicon-book{
+	font-size: 80px;
+}
